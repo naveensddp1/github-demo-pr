@@ -15,12 +15,6 @@ jobs:
     steps:
       - name: Greet the world
         run: echo "Hello, World!"
-      - run: echo "checkout repository code
-      - name: Check out repository code
-        uses: actions/checkout@v4
-      - run: echo "List files in the repository"
-      - name: List files in the repository  
-        run: ls ${{ github.workspace }}
       
       - run: echo "Print environment variables"
       - name: Print environment variables
