@@ -33,6 +33,6 @@ jobs:
           echo "Branch Name: ${{ github.ref }}"
           echo "Repository: ${{ github.repository }}"
 
-        run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }}"
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }}"
 
 
