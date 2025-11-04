@@ -5,7 +5,7 @@ on:
       - main
 
 env: 
-  GREETING: "Hello, World!"
+  GREETING: "Hello, World! naveen rahil"
   course: "GitHub Actions"
 
 
